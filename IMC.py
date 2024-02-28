@@ -33,16 +33,6 @@ print(f"Votre age est de {age}, votre taille {taille} et votre poids {poids}")
 print(f"\nVotre IMC est : {imc:.2f}")
 print(f"Catégorie de poids : {categorie_imc}")
 
-print "Quel est votre âge ? "
-age = gets.chomp.to_i
-
-# Supposons que nous sommes en 2024
-annee_actuelle = 2024
-
-# Calcul de l'année de naissance
-annee_naissance = annee_actuelle - age
-
-puts "Vous êtes né(e) en #{annee_naissance}."
 
 
 
